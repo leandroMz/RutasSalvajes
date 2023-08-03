@@ -1,0 +1,40 @@
+
+.cardContainer {
+    position: relative;
+    width: 16vw;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 5px gray;
+  }
+  
+  .imageCategory {
+    border-radius: 1rem 1rem 0 0;
+    width: 100%;
+    display: block;
+  }
+
+  h4{
+    text-decoration: none;
+    color: black;
+  }
+  .buttonCategory{
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: orange;
+    border: 1px solid orange;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .buttonCategory:hover {
+    background-color: #ff8c00;
+    border-color: #ff8c00;
+  }
+  
+  
+  
+  
+  

@@ -1,0 +1,22 @@
+/* Header.css */
+.header-container {
+    text-align: center;
+  }
+  
+  .header-title {
+    font-size: 24px;
+  }
+  
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-select {
+    margin-right: 10px;
+  }
+  
+  .form-input {
+    margin-right: 10px;
+  }

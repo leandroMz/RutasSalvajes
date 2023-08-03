@@ -1,0 +1,29 @@
+/* NavBar.css */
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+  }
+  
+  .logo {
+    width: 100px; /* Ajusta el ancho según el tamaño de tu logo */
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  /* Opcional: Estilos para los enlaces */
+  .nav-links li a {
+    text-decoration: none;
+    color: #333;
+  }

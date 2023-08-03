@@ -1,0 +1,12 @@
+.orderSection{
+    margin: 0 10rem 2rem;
+}
+.orderCategory{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.orderSection h3{
+    padding: 2rem 0  1rem 2.5rem;
+}

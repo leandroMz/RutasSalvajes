@@ -1,0 +1,21 @@
+.card {
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    flex-basis: 50%;
+    box-sizing: border-box;
+  }
+  
+  .loading-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+  
+  .spinner-border {
+    width: 5rem;
+    height: 5rem;
+    border-width: 0.2em;
+    color: #ff6600;
+  }
