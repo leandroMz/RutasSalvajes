@@ -17,10 +17,8 @@ export const LoadingItemContainer = ({ skeletonCount }) => {
                         <div className="col-md-8">
                             <div className="card-body">
                                 <h5 className="card-title">Card title</h5>
-                                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                 
-                                <button className="btn btn-warning" type="submit">Ver mas</button>
-
+                                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>                                 
+                                <button className="btn btn-secondary" type="submit">Ver mas</button>
                             </div>
                         </div>
                     </div>
@@ -29,6 +27,5 @@ export const LoadingItemContainer = ({ skeletonCount }) => {
         }
         return skeletons;
     };
-
     return <div className="orderItems">{renderSkeletons()}</div>;
 };
